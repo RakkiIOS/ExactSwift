@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35B1B5D1D4112F60057436C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1B5C1D4112F60057436C /* AppDelegate.swift */; };
+		F35B1B5F1D4112F60057436C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1B5E1D4112F60057436C /* ViewController.swift */; };
+		F35B1B621D4112F60057436C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35B1B601D4112F60057436C /* Main.storyboard */; };
+		F35B1B651D4112F60057436C /* ExactSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F35B1B631D4112F60057436C /* ExactSwift.xcdatamodeld */; };
+		F35B1B671D4112F60057436C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35B1B661D4112F60057436C /* Assets.xcassets */; };
+		F35B1B6A1D4112F60057436C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35B1B681D4112F60057436C /* LaunchScreen.storyboard */; };
+		F35B1B751D4112F70057436C /* ExactSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1B741D4112F70057436C /* ExactSwiftTests.swift */; };
+		F35B1B801D4112F70057436C /* ExactSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B1B7F1D4112F70057436C /* ExactSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35B1B711D4112F70057436C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1B511D4112F50057436C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1B581D4112F60057436C;
+			remoteInfo = ExactSwift;
+		};
+		F35B1B7C1D4112F70057436C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35B1B511D4112F50057436C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35B1B581D4112F60057436C;
+			remoteInfo = ExactSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F35B1B591D4112F60057436C /* ExactSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExactSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1B5C1D4112F60057436C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35B1B5E1D4112F60057436C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F35B1B611D4112F60057436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35B1B641D4112F60057436C /* ExactSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExactSwift.xcdatamodel; sourceTree = "<group>"; };
+		F35B1B661D4112F60057436C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35B1B691D4112F60057436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35B1B6B1D4112F60057436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35B1B701D4112F70057436C /* ExactSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExactSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1B741D4112F70057436C /* ExactSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExactSwiftTests.swift; sourceTree = "<group>"; };
+		F35B1B761D4112F70057436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35B1B7B1D4112F70057436C /* ExactSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExactSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B1B7F1D4112F70057436C /* ExactSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExactSwiftUITests.swift; sourceTree = "<group>"; };
+		F35B1B811D4112F70057436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35B1B561D4112F60057436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1B6D1D4112F70057436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1B781D4112F70057436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35B1B501D4112F50057436C = {
+			isa = PBXGroup;
+			children = (
+				F35B1B5B1D4112F60057436C /* ExactSwift */,
+				F35B1B731D4112F70057436C /* ExactSwiftTests */,
+				F35B1B7E1D4112F70057436C /* ExactSwiftUITests */,
+				F35B1B5A1D4112F60057436C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35B1B5A1D4112F60057436C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1B591D4112F60057436C /* ExactSwift.app */,
+				F35B1B701D4112F70057436C /* ExactSwiftTests.xctest */,
+				F35B1B7B1D4112F70057436C /* ExactSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35B1B5B1D4112F60057436C /* ExactSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1B941D41139E0057436C /* Library */,
+				F35B1B8D1D4113380057436C /* Model */,
+				F35B1B8E1D4113530057436C /* Cells */,
+				F35B1B8F1D4113620057436C /* Images */,
+				F35B1B951D4113D30057436C /* Supporting Files */,
+				F35B1B901D4113690057436C /* Utils */,
+				F35B1B911D4113750057436C /* Views */,
+				F35B1B921D41137D0057436C /* Logger */,
+				F35B1B931D41138A0057436C /* Content Player */,
+				F35B1B5C1D4112F60057436C /* AppDelegate.swift */,
+				F35B1B5E1D4112F60057436C /* ViewController.swift */,
+				F35B1B601D4112F60057436C /* Main.storyboard */,
+				F35B1B661D4112F60057436C /* Assets.xcassets */,
+				F35B1B681D4112F60057436C /* LaunchScreen.storyboard */,
+				F35B1B6B1D4112F60057436C /* Info.plist */,
+				F35B1B631D4112F60057436C /* ExactSwift.xcdatamodeld */,
+			);
+			path = ExactSwift;
+			sourceTree = "<group>";
+		};
+		F35B1B731D4112F70057436C /* ExactSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1B741D4112F70057436C /* ExactSwiftTests.swift */,
+				F35B1B761D4112F70057436C /* Info.plist */,
+			);
+			path = ExactSwiftTests;
+			sourceTree = "<group>";
+		};
+		F35B1B7E1D4112F70057436C /* ExactSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35B1B7F1D4112F70057436C /* ExactSwiftUITests.swift */,
+				F35B1B811D4112F70057436C /* Info.plist */,
+			);
+			path = ExactSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F35B1B8D1D4113380057436C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F35B1B8E1D4113530057436C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F35B1B8F1D4113620057436C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F35B1B901D4113690057436C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F35B1B911D4113750057436C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F35B1B921D41137D0057436C /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		F35B1B931D41138A0057436C /* Content Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Content Player";
+			sourceTree = "<group>";
+		};
+		F35B1B941D41139E0057436C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		F35B1B951D4113D30057436C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35B1B581D4112F60057436C /* ExactSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1B841D4112F70057436C /* Build configuration list for PBXNativeTarget "ExactSwift" */;
+			buildPhases = (
+				F35B1B551D4112F60057436C /* Sources */,
+				F35B1B561D4112F60057436C /* Frameworks */,
+				F35B1B571D4112F60057436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExactSwift;
+			productName = ExactSwift;
+			productReference = F35B1B591D4112F60057436C /* ExactSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35B1B6F1D4112F70057436C /* ExactSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1B871D4112F70057436C /* Build configuration list for PBXNativeTarget "ExactSwiftTests" */;
+			buildPhases = (
+				F35B1B6C1D4112F70057436C /* Sources */,
+				F35B1B6D1D4112F70057436C /* Frameworks */,
+				F35B1B6E1D4112F70057436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1B721D4112F70057436C /* PBXTargetDependency */,
+			);
+			name = ExactSwiftTests;
+			productName = ExactSwiftTests;
+			productReference = F35B1B701D4112F70057436C /* ExactSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35B1B7A1D4112F70057436C /* ExactSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35B1B8A1D4112F70057436C /* Build configuration list for PBXNativeTarget "ExactSwiftUITests" */;
+			buildPhases = (
+				F35B1B771D4112F70057436C /* Sources */,
+				F35B1B781D4112F70057436C /* Frameworks */,
+				F35B1B791D4112F70057436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35B1B7D1D4112F70057436C /* PBXTargetDependency */,
+			);
+			name = ExactSwiftUITests;
+			productName = ExactSwiftUITests;
+			productReference = F35B1B7B1D4112F70057436C /* ExactSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35B1B511D4112F50057436C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BLT0003IMAC;
+				TargetAttributes = {
+					F35B1B581D4112F60057436C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F35B1B6F1D4112F70057436C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F35B1B581D4112F60057436C;
+					};
+					F35B1B7A1D4112F70057436C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F35B1B581D4112F60057436C;
+					};
+				};
+			};
+			buildConfigurationList = F35B1B541D4112F50057436C /* Build configuration list for PBXProject "ExactSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35B1B501D4112F50057436C;
+			productRefGroup = F35B1B5A1D4112F60057436C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35B1B581D4112F60057436C /* ExactSwift */,
+				F35B1B6F1D4112F70057436C /* ExactSwiftTests */,
+				F35B1B7A1D4112F70057436C /* ExactSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35B1B571D4112F60057436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1B6A1D4112F60057436C /* LaunchScreen.storyboard in Resources */,
+				F35B1B671D4112F60057436C /* Assets.xcassets in Resources */,
+				F35B1B621D4112F60057436C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1B6E1D4112F70057436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1B791D4112F70057436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35B1B551D4112F60057436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1B5F1D4112F60057436C /* ViewController.swift in Sources */,
+				F35B1B651D4112F60057436C /* ExactSwift.xcdatamodeld in Sources */,
+				F35B1B5D1D4112F60057436C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1B6C1D4112F70057436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1B751D4112F70057436C /* ExactSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35B1B771D4112F70057436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B1B801D4112F70057436C /* ExactSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35B1B721D4112F70057436C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35B1B581D4112F60057436C /* ExactSwift */;
+			targetProxy = F35B1B711D4112F70057436C /* PBXContainerItemProxy */;
+		};
+		F35B1B7D1D4112F70057436C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35B1B581D4112F60057436C /* ExactSwift */;
+			targetProxy = F35B1B7C1D4112F70057436C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35B1B601D4112F60057436C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35B1B611D4112F60057436C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F35B1B681D4112F60057436C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35B1B691D4112F60057436C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35B1B821D4112F70057436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35B1B831D4112F70057436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35B1B851D4112F70057436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExactSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Radhakrishnan.ExactSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F35B1B861D4112F70057436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExactSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Radhakrishnan.ExactSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F35B1B881D4112F70057436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExactSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Radhakrishnan.ExactSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExactSwift.app/ExactSwift";
+			};
+			name = Debug;
+		};
+		F35B1B891D4112F70057436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExactSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Radhakrishnan.ExactSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExactSwift.app/ExactSwift";
+			};
+			name = Release;
+		};
+		F35B1B8B1D4112F70057436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExactSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Radhakrishnan.ExactSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExactSwift;
+			};
+			name = Debug;
+		};
+		F35B1B8C1D4112F70057436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExactSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Radhakrishnan.ExactSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExactSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35B1B541D4112F50057436C /* Build configuration list for PBXProject "ExactSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1B821D4112F70057436C /* Debug */,
+				F35B1B831D4112F70057436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35B1B841D4112F70057436C /* Build configuration list for PBXNativeTarget "ExactSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1B851D4112F70057436C /* Debug */,
+				F35B1B861D4112F70057436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35B1B871D4112F70057436C /* Build configuration list for PBXNativeTarget "ExactSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1B881D4112F70057436C /* Debug */,
+				F35B1B891D4112F70057436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35B1B8A1D4112F70057436C /* Build configuration list for PBXNativeTarget "ExactSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35B1B8B1D4112F70057436C /* Debug */,
+				F35B1B8C1D4112F70057436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F35B1B631D4112F60057436C /* ExactSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F35B1B641D4112F60057436C /* ExactSwift.xcdatamodel */,
+			);
+			currentVersion = F35B1B641D4112F60057436C /* ExactSwift.xcdatamodel */;
+			path = ExactSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F35B1B511D4112F50057436C /* Project object */;
+}
